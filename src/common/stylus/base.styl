@@ -1,3 +1,14 @@
 html, body
   height: 100%
   overflow: hidden
+
+// Sticky footer布局
+.clearfix
+  display inleine-block
+  &:after
+    display block
+    content "."
+    height 0
+    line-height 0
+    clear both
+    visibility hidden
